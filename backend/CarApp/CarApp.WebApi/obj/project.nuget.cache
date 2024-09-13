@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "D0GLWwkiTLWBawwoRdQFnYaKQuLDuS4GFv/UwH5qLmjg8uqmh0FWl8oiJ0TYMN9eghBjs/IHLjhvs4Ts66cMhQ==",
+  "success": true,
+  "projectFilePath": "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.WebApi/CarApp.WebApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/matkomihalj/.nuget/packages/microsoft.aspnetcore.openapi/8.0.5/microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
