@@ -2,6 +2,18 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp.WebApi", "CarApp.WebApi\CarApp.WebApi.csproj", "{1131100A-B622-4EFC-9E4A-C82C13D4B910}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp.Model", "CarApp.Model\CarApp.Model.csproj", "{CA0C467D-61B1-4192-98E8-764B749AE375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp.Common", "CarApp.Common\CarApp.Common.csproj", "{BEF8AA7E-0BF2-4CA1-9CBD-1A33A138BA8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp.VehicleRepository.Common", "CarApp.VehicleRepository.Common\CarApp.VehicleRepository.Common.csproj", "{A913C9F2-F993-4327-B1FA-9EA75F06C7A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp.VehicleMakeRepository.Common", "CarApp.VehicleMakeRepository.Common\CarApp.VehicleMakeRepository.Common.csproj", "{3F4F9408-BD31-47A5-B8EB-F6B9D4A786E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp.VehicleMakeRepository", "CarApp.VehicleMakeRepository\CarApp.VehicleMakeRepository.csproj", "{7FE4E554-DDAE-46C4-A9DE-EF3EF6F9FB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp.VehicleRepository", "CarApp.VehicleRepository\CarApp.VehicleRepository.csproj", "{7C7F7F7B-0DA7-4071-9736-D1CCF4B0C3E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +24,29 @@ Global
 		{1131100A-B622-4EFC-9E4A-C82C13D4B910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1131100A-B622-4EFC-9E4A-C82C13D4B910}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1131100A-B622-4EFC-9E4A-C82C13D4B910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA0C467D-61B1-4192-98E8-764B749AE375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0C467D-61B1-4192-98E8-764B749AE375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0C467D-61B1-4192-98E8-764B749AE375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0C467D-61B1-4192-98E8-764B749AE375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF8AA7E-0BF2-4CA1-9CBD-1A33A138BA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF8AA7E-0BF2-4CA1-9CBD-1A33A138BA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF8AA7E-0BF2-4CA1-9CBD-1A33A138BA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF8AA7E-0BF2-4CA1-9CBD-1A33A138BA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A913C9F2-F993-4327-B1FA-9EA75F06C7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A913C9F2-F993-4327-B1FA-9EA75F06C7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A913C9F2-F993-4327-B1FA-9EA75F06C7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A913C9F2-F993-4327-B1FA-9EA75F06C7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4F9408-BD31-47A5-B8EB-F6B9D4A786E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4F9408-BD31-47A5-B8EB-F6B9D4A786E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4F9408-BD31-47A5-B8EB-F6B9D4A786E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4F9408-BD31-47A5-B8EB-F6B9D4A786E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE4E554-DDAE-46C4-A9DE-EF3EF6F9FB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE4E554-DDAE-46C4-A9DE-EF3EF6F9FB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE4E554-DDAE-46C4-A9DE-EF3EF6F9FB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE4E554-DDAE-46C4-A9DE-EF3EF6F9FB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7F7F7B-0DA7-4071-9736-D1CCF4B0C3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7F7F7B-0DA7-4071-9736-D1CCF4B0C3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7F7F7B-0DA7-4071-9736-D1CCF4B0C3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7F7F7B-0DA7-4071-9736-D1CCF4B0C3E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarApp.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec1f572e0b31a26c43ca4faae1f12d64a61824f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3406b4c1aba4b88bf11695e09d5a743744073036")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarApp.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarApp.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
