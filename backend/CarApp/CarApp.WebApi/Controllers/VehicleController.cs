@@ -54,4 +54,19 @@ public class VehicleController: ControllerBase
             return BadRequest(ex.Message);
         }
     }
+    
+    [HttpDelete("DeleteVehicle/{id}")]
+    public async Task<ActionResult> DeleteVehicle(int id)
+    {
+        try
+        {
+            
+            await _vehicleService.DeleteVehicle(id);
+            return Ok($"Vehicle with ID {id} successfully deleted.");
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
 }

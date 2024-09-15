@@ -27,8 +27,8 @@ public class VehicleService: IVehicleService
         await _repository.PostVehicle(vehicle);
     }
 
-    public Task DeleteVehicle(int id)
+    public  async Task DeleteVehicle(int id)
     {
-        throw new NotImplementedException();
+        await _repository.DeleteVehicle(id);
     }
 }

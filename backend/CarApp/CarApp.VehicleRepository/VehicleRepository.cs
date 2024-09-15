@@ -6,13 +6,11 @@ namespace CarApp.VehicleRepository
 {
     public class VehicleRepository : IVehicleRepository
     {
+        string connectionString = "Host=localhost;Port=5432;Database=CARS;Username=postgres;Password=mono";
         public async Task<IList<Vehicle>> GetAllVehicle()
         {
-            var vehicles = new List<Vehicle>();
-
-            
             string connectionString = "Host=localhost;Port=5432;Database=CARS;Username=postgres;Password=mono";
-            
+            var vehicles = new List<Vehicle>();
             await using var connection = new NpgsqlConnection(connectionString);
             await using var command = new NpgsqlCommand(@"
         SELECT v.""Id"", v.""Name"", v.""Abrv"", v.""MakeId"", 
@@ -46,7 +44,7 @@ namespace CarApp.VehicleRepository
 
         public  async Task PostVehicle(Vehicle vehicle)
         {
-            string connectionString = "Host=localhost;Port=5432;Database=CARS;Username=postgres;Password=mono";
+            
             await using var connection = new NpgsqlConnection(connectionString);
             await using var command = new NpgsqlCommand(@"
             INSERT INTO ""Vehicle"" (""Name"", ""Abrv"", ""MakeId"")
@@ -58,6 +56,24 @@ namespace CarApp.VehicleRepository
 
             await connection.OpenAsync();
             await command.ExecuteNonQueryAsync();
+        }
+
+        public  async Task DeleteVehicle(int id)
+        {
+            await using var connection = new NpgsqlConnection(connectionString);
+            await using var command = new NpgsqlCommand(@"
+            DELETE FROM ""Vehicle""
+            WHERE ""Id"" = @Id;", connection);
+
+            command.Parameters.AddWithValue("@Id", id);
+
+            await connection.OpenAsync();
+            var result = await command.ExecuteNonQueryAsync();
+
+            if (result == 0)
+            {
+                throw new Exception($"Vehicle with ID {id} not found.");
+            }
         }
     }
 }
