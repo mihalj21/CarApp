@@ -26,4 +26,9 @@ public class VehicleService: IVehicleService
     {
         await _repository.PostVehicle(vehicle);
     }
+
+    public Task DeleteVehicle(int id)
+    {
+        throw new NotImplementedException();
+    }
 }
