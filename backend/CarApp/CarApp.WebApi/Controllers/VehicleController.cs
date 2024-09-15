@@ -24,10 +24,30 @@ public class VehicleController: ControllerBase
     {
         try
         {
-            var players = await _vehicleService.GetAllVehicle();
-            var restPlayers = _mapper.Map<IEnumerable<VehicleRest>>(players);
-            return Ok(restPlayers);
+            var vehicles = await _vehicleService.GetAllVehicle();
+            var restVehicles = _mapper.Map<IEnumerable<VehicleRest>>(vehicles);
+            return Ok(restVehicles);
 
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+    
+    [HttpPost("PostVehicle")]
+    public async Task<ActionResult> PostVehicle([FromBody] VehicleCreateRest vehicleRest)
+    {
+        try
+        {
+            
+            var vehicle = _mapper.Map<Model.Vehicle>(vehicleRest);
+
+            
+            await _vehicleService.PostVehicle(vehicle);
+
+           
+            return Ok("Vehicle successfully created.");
         }
         catch (Exception ex)
         {

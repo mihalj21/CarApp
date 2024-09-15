@@ -43,5 +43,21 @@ namespace CarApp.VehicleRepository
 
             return vehicles; 
         }
+
+        public  async Task PostVehicle(Vehicle vehicle)
+        {
+            string connectionString = "Host=localhost;Port=5432;Database=CARS;Username=postgres;Password=mono";
+            await using var connection = new NpgsqlConnection(connectionString);
+            await using var command = new NpgsqlCommand(@"
+            INSERT INTO ""Vehicle"" (""Name"", ""Abrv"", ""MakeId"")
+            VALUES (@Name, @Abrv, @MakeId);", connection);
+
+            command.Parameters.AddWithValue("@Name", vehicle.Name);
+            command.Parameters.AddWithValue("@Abrv", vehicle.Abrv);
+            command.Parameters.AddWithValue("@MakeId", vehicle.MakeId);
+
+            await connection.OpenAsync();
+            await command.ExecuteNonQueryAsync();
+        }
     }
 }
