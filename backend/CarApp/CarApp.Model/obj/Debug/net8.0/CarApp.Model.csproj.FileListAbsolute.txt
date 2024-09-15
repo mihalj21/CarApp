@@ -1,0 +1,13 @@
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/bin/Debug/net8.0/CarApp.Model.deps.json
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/bin/Debug/net8.0/CarApp.Model.dll
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/bin/Debug/net8.0/CarApp.Model.pdb
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/obj/Debug/net8.0/CarApp.Model.csproj.AssemblyReference.cache
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/obj/Debug/net8.0/CarApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/obj/Debug/net8.0/CarApp.Model.AssemblyInfoInputs.cache
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/obj/Debug/net8.0/CarApp.Model.AssemblyInfo.cs
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/obj/Debug/net8.0/CarApp.Model.csproj.CoreCompileInputs.cache
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/obj/Debug/net8.0/CarApp.Model.sourcelink.json
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/obj/Debug/net8.0/CarApp.Model.dll
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/obj/Debug/net8.0/refint/CarApp.Model.dll
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/obj/Debug/net8.0/CarApp.Model.pdb
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/obj/Debug/net8.0/ref/CarApp.Model.dll

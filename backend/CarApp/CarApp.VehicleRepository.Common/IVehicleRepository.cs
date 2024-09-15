@@ -1,5 +1,9 @@
-﻿namespace CarApp.VehicleRepository.Common;
+﻿using CarApp.Model;
 
-public class IVehicleRepository
+namespace CarApp.VehicleRepository.Common;
+
+public interface IVehicleRepository
 {
+    Task<IList<Vehicle>> GetAllVehicle();
+    
 }

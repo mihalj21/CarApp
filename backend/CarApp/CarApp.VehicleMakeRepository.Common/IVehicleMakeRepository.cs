@@ -1,5 +1,5 @@
 ﻿namespace CarApp.VehicleMakeRepository.Common;
 
-public class IVehicleMakeRepository
+public interface IVehicleMakeRepository
 {
 }

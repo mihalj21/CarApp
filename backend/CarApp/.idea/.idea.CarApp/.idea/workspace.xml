@@ -9,6 +9,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55ba0d35-e56a-48a2-a31a-c52e64123772" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Database-commands-and-data.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database-commands-and-data.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CarApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CarApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/CarApp.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/CarApp.Common.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/obj/CarApp.Common.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/obj/CarApp.Common.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/obj/CarApp.Common.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/obj/CarApp.Common.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/obj/Debug/net8.0/CarApp.Common.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/obj/Debug/net8.0/CarApp.Common.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/obj/Debug/net8.0/CarApp.Common.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/obj/Debug/net8.0/CarApp.Common.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/obj/Debug/net8.0/CarApp.Common.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/obj/Debug/net8.0/CarApp.Common.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/CarApp.Model.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/CarApp.Model.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/Vehicle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/Vehicle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/VehicleMake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/VehicleMake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/obj/CarApp.Model.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/obj/CarApp.Model.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/obj/CarApp.Model.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/obj/CarApp.Model.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/obj/Debug/net8.0/CarApp.Model.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/obj/Debug/net8.0/CarApp.Model.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/obj/Debug/net8.0/CarApp.Model.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/obj/Debug/net8.0/CarApp.Model.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/obj/Debug/net8.0/CarApp.Model.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/obj/Debug/net8.0/CarApp.Model.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.Model/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.Model/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/CarApp.VehicleMakeRepository.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/CarApp.VehicleMakeRepository.Common.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/IVehicleMakeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/IVehicleMakeRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/CarApp.VehicleMakeRepository.Common.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/CarApp.VehicleMakeRepository.Common.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/CarApp.VehicleMakeRepository.Common.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/CarApp.VehicleMakeRepository.Common.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/Debug/net8.0/CarApp.VehicleMakeRepository.Common.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/Debug/net8.0/CarApp.VehicleMakeRepository.Common.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/Debug/net8.0/CarApp.VehicleMakeRepository.Common.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/Debug/net8.0/CarApp.VehicleMakeRepository.Common.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/Debug/net8.0/CarApp.VehicleMakeRepository.Common.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/Debug/net8.0/CarApp.VehicleMakeRepository.Common.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/CarApp.VehicleMakeRepository.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/CarApp.VehicleMakeRepository.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/CarApp.VehicleMakeRepository.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/CarApp.VehicleMakeRepository.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/CarApp.VehicleMakeRepository.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/CarApp.VehicleMakeRepository.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/Debug/net8.0/CarApp.VehicleMakeRepository.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/Debug/net8.0/CarApp.VehicleMakeRepository.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/Debug/net8.0/CarApp.VehicleMakeRepository.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/Debug/net8.0/CarApp.VehicleMakeRepository.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/Debug/net8.0/CarApp.VehicleMakeRepository.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/Debug/net8.0/CarApp.VehicleMakeRepository.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleMakeRepository/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/CarApp.VehicleRepository.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/CarApp.VehicleRepository.Common.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/IVehicleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/IVehicleRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/CarApp.VehicleRepository.Common.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/CarApp.VehicleRepository.Common.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/CarApp.VehicleRepository.Common.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/CarApp.VehicleRepository.Common.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository.Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/CarApp.VehicleRepository.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/CarApp.VehicleRepository.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/VehicleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/VehicleRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/CarApp.VehicleRepository.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/CarApp.VehicleRepository.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/CarApp.VehicleRepository.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/CarApp.VehicleRepository.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/Debug/net8.0/CarApp.VehicleRepository.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/Debug/net8.0/CarApp.VehicleRepository.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/Debug/net8.0/CarApp.VehicleRepository.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/Debug/net8.0/CarApp.VehicleRepository.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/Debug/net8.0/CarApp.VehicleRepository.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/Debug/net8.0/CarApp.VehicleRepository.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.VehicleRepository/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/CarApp.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/CarApp.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/bin/Debug/net8.0/CarApp.WebApi.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/bin/Debug/net8.0/CarApp.WebApi.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/bin/Debug/net8.0/CarApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/bin/Debug/net8.0/CarApp.WebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/bin/Debug/net8.0/CarApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/bin/Debug/net8.0/CarApp.WebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/CarApp.WebApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/CarApp.WebApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/CarApp.WebApi.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/CarApp.WebApi.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/CarApp.WebApi.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/ref/CarApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/ref/CarApp.WebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/refint/CarApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/Debug/net8.0/refint/CarApp.WebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarApp.WebApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.WebApi/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CarApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CarApp.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +115,14 @@
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CarApp.VehicleMakeRepository.Common/IVehicleMakeRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarApp.VehicleMakeRepository/VehicleMakeRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarApp.VehicleRepository.Common/IVehicleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -27,26 +131,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.CarApp.WebApi: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.CarApp.WebApi: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.CarApp.WebApi: https.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/matkomihalj/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/matkomihalj/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/matkomihalj/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/matkomihalj/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/matkomihalj/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/matkomihalj/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.CarApp.WebApi: http">
+}</component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.CarApp.WebApi: https">
     <configuration name="Unnamed" type="DotNetProject" factoryName=".NET Project" nameIsGenerated="true">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -110,7 +215,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726239921606</updated>
       <workItem from="1726239922762" duration="26000" />
-      <workItem from="1726239990295" duration="980000" />
+      <workItem from="1726239990295" duration="17921000" />
     </task>
     <servers />
   </component>

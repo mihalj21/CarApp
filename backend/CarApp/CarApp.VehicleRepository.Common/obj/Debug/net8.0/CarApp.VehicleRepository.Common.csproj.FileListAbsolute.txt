@@ -1,0 +1,16 @@
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/bin/Debug/net8.0/CarApp.VehicleRepository.Common.deps.json
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/bin/Debug/net8.0/CarApp.VehicleRepository.Common.dll
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/bin/Debug/net8.0/CarApp.VehicleRepository.Common.pdb
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/bin/Debug/net8.0/CarApp.Model.dll
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/bin/Debug/net8.0/CarApp.Model.pdb
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.csproj.AssemblyReference.cache
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.AssemblyInfoInputs.cache
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.AssemblyInfo.cs
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.csproj.CoreCompileInputs.cache
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.sourcelink.json
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.V.AD4D777C.Up2Date
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.dll
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/refint/CarApp.VehicleRepository.Common.dll
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/CarApp.VehicleRepository.Common.pdb
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository.Common/obj/Debug/net8.0/ref/CarApp.VehicleRepository.Common.dll

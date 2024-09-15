@@ -1,8 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "WSopQ5e/vKnmetGq0+VryTFOl7Eop5lw5dtOykwZ/JXDMUmIPT2LtLGYrkBvAqQ0Pyn0WvKuwyudKeQ8vTysgQ==",
+  "dgSpecHash": "YEA1s+57yTZt+1k4P4gcIaaCjmR9klzoi+5c5IOg/K/6aY4BT09+nquKNvG+tZWQD5qVS0DPZEKta0zMp6THFw==",
   "success": true,
   "projectFilePath": "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/CarApp.Model.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "/Users/matkomihalj/.nuget/packages/autofac/8.1.0/autofac.8.1.0.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/autofac.extensions.dependencyinjection/10.0.0/autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/npgsql/8.0.4/npgsql.8.0.4.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/system.diagnostics.diagnosticsource/8.0.1/system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
+    "/Users/matkomihalj/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 13.0.1 was resolved.",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
