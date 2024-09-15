@@ -21,4 +21,9 @@ public class VehicleService: IVehicleService
     {
         return await _repository.GetAllVehicle();
     }
+
+    public async Task PostVehicle(Model.Vehicle vehicle)
+    {
+        await _repository.PostVehicle(vehicle);
+    }
 }

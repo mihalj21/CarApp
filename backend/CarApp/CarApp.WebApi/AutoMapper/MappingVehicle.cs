@@ -21,6 +21,8 @@ public class MappingProfile: Profile
             .ForMember(dest => dest.MakeId, opt => opt.MapFrom(src => src.MakeId))
             .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
             .ForMember(dest => dest.Abrv, opt => opt.MapFrom(src => src.Abrv));
+
+        CreateMap<VehicleCreateRest, Model.Vehicle>();
     }
 
 
