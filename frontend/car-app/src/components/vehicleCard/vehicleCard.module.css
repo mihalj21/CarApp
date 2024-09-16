@@ -1,9 +1,11 @@
+
 .vehicleCard {
   background-color: #f8f9fa; 
   border: 1px solid #ddd; 
   border-radius: 8px; 
-  padding: 20px; 
-  margin: 10px 0; 
+  padding: 20px;
+  margin: 10px 0;
+  width: 20%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
