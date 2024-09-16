@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { observer } from 'mobx-react-lite';
 import VehicleCard from '../../components/vehicleCard/vehicleCard';
 import { vehicleStore } from '../../stores/vehicleStore';
-
+import styles from '../HomePage/homePage.module.css';
 const HomePage = observer(() => {
   useEffect(() => {
     
@@ -20,7 +20,7 @@ const HomePage = observer(() => {
   return (
     <div className="vehicle-list">
       <h2>Vehicle List</h2>
-      <div>
+      <div className={styles.container}>
         {vehicleStore.vehicles.map(vehicle => (
           <VehicleCard key={vehicle.id} vehicle={vehicle} />
         ))}
