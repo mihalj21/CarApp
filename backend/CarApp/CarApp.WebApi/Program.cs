@@ -9,14 +9,24 @@ using CarApp.WebApi.AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 builder.Services.AddControllers(); 
 
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-
 builder.Services.AddAuthorization();
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", builder =>
+    {
+        builder.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+}); 
 
 
 var mapperConfig = new MapperConfiguration(mc =>
@@ -28,10 +38,8 @@ builder.Services.AddSingleton(mapper);
 
 
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
-
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 {
-   
     containerBuilder.RegisterType<VehicleService>().As<IVehicleService>().InstancePerLifetimeScope();
     containerBuilder.RegisterType<VehicleRepository>().As<IVehicleRepository>().InstancePerLifetimeScope();
     containerBuilder.RegisterInstance(mapper).As<IMapper>().SingleInstance();
@@ -40,21 +48,26 @@ builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenLocalhost(5099); 
+    options.ListenLocalhost(5099);
     options.ListenLocalhost(7256, listenOptions =>
     {
-        listenOptions.UseHttps(); 
+        listenOptions.UseHttps();
     });
 });
 
 
 var app = builder.Build();
 
+
+app.UseCors("AllowAllOrigins");
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection(); 
 

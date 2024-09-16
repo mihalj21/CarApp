@@ -1,0 +1,30 @@
+.vehicleCard {
+  background-color: #f8f9fa; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 20px; 
+  margin: 10px 0; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.vehicleCard:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.vehicleCard h3 {
+  font-size: 1.5rem; 
+  color: #343a40;
+  margin-bottom: 10px; 
+}
+
+.vehicleCard p {
+  font-size: 1rem; 
+  color: #6c757d;
+  margin: 5px 0; 
+}
+
+.vehicleCard p strong {
+  color: #495057; 
+}
