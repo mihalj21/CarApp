@@ -1,12 +1,12 @@
-
+import { router } from './router';
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import HomePage from './pages/HomePage/homePage';
 
 
-function App() {
+export const  App = () => {
   return (
     <div className="App">
-      <HomePage></HomePage>
+      <RouterProvider router={router}> </RouterProvider>
     </div>
   );
 }

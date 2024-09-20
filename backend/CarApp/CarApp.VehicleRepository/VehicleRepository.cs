@@ -1,4 +1,5 @@
-﻿using CarApp.Model;
+﻿using System.Text;
+using CarApp.Model;
 using CarApp.VehicleRepository.Common;
 using Npgsql;
 
@@ -74,6 +75,91 @@ namespace CarApp.VehicleRepository
             {
                 throw new Exception($"Vehicle with ID {id} not found.");
             }
+        }
+
+        public  async Task<Vehicle> GetVehicleById(int id)
+        {
+            await using var connection = new NpgsqlConnection(connectionString);
+            
+            await using var command = new NpgsqlCommand(@"
+            SELECT ""Id"", ""Name"", ""Abrv"", ""MakeId""
+            FROM ""Vehicle""
+            WHERE ""Id"" = @Id;", connection);
+
+            command.Parameters.AddWithValue("@Id", id);
+            
+            await connection.OpenAsync();
+            await using var reader = await command.ExecuteReaderAsync();
+            
+            if (await reader.ReadAsync())
+            {
+                return new Vehicle
+                {
+                    Id = reader["Id"] != DBNull.Value ? Convert.ToInt32(reader["Id"]) : 0,
+                    MakeId = reader["MakeId"] != DBNull.Value ? Convert.ToInt32(reader["MakeId"]) : 0,
+                    Name = reader["Name"] != DBNull.Value ? reader["Name"].ToString() : string.Empty,
+                    Abrv = reader["Abrv"] != DBNull.Value ? reader["Abrv"].ToString() : string.Empty
+                };
+            }
+
+            return null;
+        }
+        
+        public async Task<int> UpdateVehicle(Vehicle vehicle, int id)
+        {
+            
+            Vehicle? existingVehicle = await GetVehicleById(id);
+            if (existingVehicle == null)
+            {
+                throw new Exception("Vehicle does not exist, try another Id.");
+            }
+
+           
+            await using NpgsqlConnection connection = new NpgsqlConnection(connectionString);
+            await using NpgsqlCommand command = CreateCommandUpdate(connection, vehicle, id);
+
+            
+            await connection.OpenAsync();
+            
+            int commitNumber = await command.ExecuteNonQueryAsync();
+            
+            return commitNumber;
+        }
+        
+        private NpgsqlCommand CreateCommandUpdate(NpgsqlConnection connection, Vehicle vehicle, int id)
+        {
+            NpgsqlCommand command = new NpgsqlCommand("", connection);
+            StringBuilder query = new StringBuilder();
+
+            query.Append("UPDATE \"Vehicle\" SET");
+
+            bool isFirstField = true; 
+
+            if (!string.IsNullOrEmpty(vehicle.Name))
+            {
+                query.Append(isFirstField ? " \"Name\" = @Name" : ", \"Name\" = @Name");
+                command.Parameters.AddWithValue("@Name", vehicle.Name);
+                isFirstField = false;
+            }
+            if (!string.IsNullOrEmpty(vehicle.Abrv))
+            {
+                query.Append(isFirstField ? " \"Abrv\" = @Abrv" : ", \"Abrv\" = @Abrv");
+                command.Parameters.AddWithValue("@Abrv", vehicle.Abrv);
+                isFirstField = false;
+            }
+            if (vehicle.MakeId != 0)
+            {
+                query.Append(isFirstField ? " \"MakeId\" = @MakeId" : ", \"MakeId\" = @MakeId");
+                command.Parameters.AddWithValue("@MakeId", vehicle.MakeId);
+                isFirstField = false;
+            }
+
+           
+            query.Append(" WHERE \"Id\" = @VehicleId");
+            command.Parameters.AddWithValue("@VehicleId", id);
+            
+            command.CommandText = query.ToString();
+            return command;
         }
     }
 }

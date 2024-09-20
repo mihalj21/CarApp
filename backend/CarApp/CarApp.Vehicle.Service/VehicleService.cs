@@ -31,4 +31,14 @@ public class VehicleService: IVehicleService
     {
         await _repository.DeleteVehicle(id);
     }
+
+    public  async Task<Model.Vehicle> GetVehicleById(int id)
+    {
+        return await _repository.GetVehicleById(id);
+    }
+
+    public async Task<int> UpdateVehicle(Model.Vehicle vehicle, int id)
+    {
+        return await _repository.UpdateVehicle(vehicle, id);
+    }
 }

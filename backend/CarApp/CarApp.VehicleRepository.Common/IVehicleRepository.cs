@@ -8,4 +8,9 @@ public interface IVehicleRepository
     Task PostVehicle (Vehicle vehicle);
     
     Task DeleteVehicle (int id); 
+    
+    Task<Vehicle> GetVehicleById(int id);
+
+    Task<int> UpdateVehicle(Vehicle vehicle, int id);
+
 }

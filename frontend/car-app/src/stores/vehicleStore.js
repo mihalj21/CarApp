@@ -1,5 +1,5 @@
 import { makeObservable, observable, action, runInAction } from "mobx";
-import { VehicleService } from "../services/vehicleService";
+import { VehicleService} from "../services/vehicleService";
 
 
 
@@ -18,6 +18,7 @@ class VehicleStore{
     fetchVehicles: action,
     addVehicle: action,
     deleteVehicle: action,
+    updateVehicle:action
    });
   }
 
@@ -65,6 +66,28 @@ async deleteVehicle(id) {
         });
     }
 }
+
+async updateVehicle(id, updatedVehicle) {
+  try {
+    const response = await VehicleService.updateVehicle(id, updatedVehicle);
+
+    runInAction(() => {
+      this.vehicles = this.vehicles.map(vehicle =>
+        vehicle.id === id ? response.data : vehicle
+      );
+    });
+  } catch (error) {
+    runInAction(() => {
+      this.error = "Failed to update vehicle.";
+    });
+  }
 }
+
+}
+
+
+
+
+
 
 export const vehicleStore = new VehicleStore();

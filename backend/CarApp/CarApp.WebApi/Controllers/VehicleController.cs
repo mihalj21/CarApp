@@ -69,4 +69,49 @@ public class VehicleController: ControllerBase
             return BadRequest(ex.Message);
         }
     }
+    
+    [HttpGet("GetCar")]
+    
+    public async Task<ActionResult> GetById(int id)
+    {
+        try
+        {
+           Model.Vehicle car =  await _vehicleService.GetVehicleById(id);
+            return Ok(car);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+    
+    [HttpPut("UpdateVehicles/{vehicleId:int}")]
+    public async Task<IActionResult> Put(VehiclePostRest vehiclePost, int vehicleId)
+    {
+        if (vehiclePost == null)
+        {
+            return BadRequest("Invalid vehicle data.");
+        }
+
+        try
+        {
+            
+            Model.Vehicle vehicle = _mapper.Map<Model.Vehicle>(vehiclePost);
+
+            
+            int commitNumber = await _vehicleService.UpdateVehicle(vehicle, vehicleId);
+
+            if (commitNumber == 0)
+            {
+                return BadRequest("Vehicle could not be updated.");
+            }
+
+            return Ok("Vehicle updated successfully.");
+        }
+        catch (Exception ex)
+        {
+           
+            return StatusCode(500, $"Internal server error: {ex.Message}");
+        }
+    }
 }
