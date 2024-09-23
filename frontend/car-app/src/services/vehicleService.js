@@ -8,7 +8,7 @@ const API_URL = 'https://localhost:7256/Vehicle';
   };
   
   export const addVehicle = async (vehicle) => {
-    return axios.post(`${API_URL}/AddVehicle`, vehicle);
+    return axios.post(`${API_URL}/PostVehicle`, vehicle);
   };
   
   export const deleteVehicle = async (id) => {

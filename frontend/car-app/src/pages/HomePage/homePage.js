@@ -31,7 +31,6 @@ const HomePage = observer(() => {
 
   return (
     <div className="vehicle-list">
-      <h2>Vehicle List</h2>
       <div className={styles.container}>
       {vehicleStore.vehicles.map((vehicle, index) => (
   <VehicleCard key={`${vehicle.id}-${index}`} vehicle={vehicle} onEdit={handleEditVehicle} />
