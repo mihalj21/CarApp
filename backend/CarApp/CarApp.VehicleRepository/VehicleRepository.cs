@@ -106,7 +106,7 @@ namespace CarApp.VehicleRepository
             return null;
         }
         
-        public async Task<int> UpdateVehicle(Vehicle vehicle, int id)
+        public async Task<Vehicle> UpdateVehicle(Vehicle vehicle, int id)
         {
             
             Vehicle? existingVehicle = await GetVehicleById(id);
@@ -124,7 +124,12 @@ namespace CarApp.VehicleRepository
             
             int commitNumber = await command.ExecuteNonQueryAsync();
             
-            return commitNumber;
+            if (commitNumber == 0)
+            {
+                throw new Exception($"Update failed for Vehicle with ID {id}");
+            }
+            
+            return await GetVehicleById(id);
         }
         
         private NpgsqlCommand CreateCommandUpdate(NpgsqlConnection connection, Vehicle vehicle, int id)

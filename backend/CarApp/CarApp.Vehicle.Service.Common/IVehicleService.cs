@@ -9,6 +9,6 @@ public interface IVehicleService
     Task DeleteVehicle(int id);
     
     Task<Model.Vehicle> GetVehicleById(int id);
-    Task<int> UpdateVehicle(Model.Vehicle vehicle, int id);
+    Task<Model.Vehicle> UpdateVehicle(Model.Vehicle vehicle, int id);
     Task<List<Model.Vehicle>> GetVehicleFilter(Filter filter, Paging paging, Sorting sorting);
 }

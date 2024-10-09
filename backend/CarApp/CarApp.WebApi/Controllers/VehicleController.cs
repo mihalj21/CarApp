@@ -96,22 +96,18 @@ public class VehicleController: ControllerBase
 
         try
         {
-            
             Model.Vehicle vehicle = _mapper.Map<Model.Vehicle>(vehiclePost);
+            var updatedVehicle = await _vehicleService.UpdateVehicle(vehicle, vehicleId);
 
-            
-            int commitNumber = await _vehicleService.UpdateVehicle(vehicle, vehicleId);
-
-            if (commitNumber == 0)
+            if (updatedVehicle == null)
             {
                 return BadRequest("Vehicle could not be updated.");
             }
 
-            return Ok("Vehicle updated successfully.");
+            return Ok(updatedVehicle); // Return the updated vehicle
         }
         catch (Exception ex)
         {
-           
             return StatusCode(500, $"Internal server error: {ex.Message}");
         }
     }

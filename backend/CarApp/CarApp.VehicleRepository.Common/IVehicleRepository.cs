@@ -11,7 +11,7 @@ public interface IVehicleRepository
     
     Task<Vehicle> GetVehicleById(int id);
 
-    Task<int> UpdateVehicle(Vehicle vehicle, int id);
+    Task<Vehicle> UpdateVehicle(Vehicle vehicle, int id);
     Task<List<Vehicle>> GetVehicleFilter(Filter filter, Paging paging, Sorting sorting);
 
 }

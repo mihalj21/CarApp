@@ -74,12 +74,15 @@ async deleteVehicle(id) {
 async updateVehicle(id, updatedVehicle) {
   try {
     const response = await VehicleService.updateVehicle(id, updatedVehicle);
-
-    runInAction(() => {
-      this.vehicles = this.vehicles.map(vehicle =>
-        vehicle.id === id ? response.data : vehicle
-      );
-    });
+    if (response.data) {
+      runInAction(() => {
+        this.vehicles = this.vehicles.map(vehicle =>
+          vehicle.id === id ? response.data : vehicle
+        );
+      });
+    } else {
+      await this.fetchVehicles();
+    }
   } catch (error) {
     runInAction(() => {
       this.error = "Failed to update vehicle.";

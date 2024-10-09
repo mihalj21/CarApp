@@ -38,7 +38,7 @@ public class VehicleService: IVehicleService
         return await _repository.GetVehicleById(id);
     }
 
-    public async Task<int> UpdateVehicle(Model.Vehicle vehicle, int id)
+    public async Task<Model.Vehicle> UpdateVehicle(Model.Vehicle vehicle, int id)
     {
         return await _repository.UpdateVehicle(vehicle, id);
     }
