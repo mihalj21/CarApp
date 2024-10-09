@@ -12,6 +12,10 @@ export const Header = () => {
                   <Link to="/" className="header-button">
                     <i className="fas fa-home"></i> Home
                   </Link>
+                  <Link to="/filter-vehicle" className="header-button filter-vehicle">
+                   <i className="fas fa-filter"></i> 
+                     Filter
+                  </Link>
                   <Link to="/add-vehicle" className="header-button add-vehicle">
                   <i className="fas fa-plus"></i>
                   </Link>

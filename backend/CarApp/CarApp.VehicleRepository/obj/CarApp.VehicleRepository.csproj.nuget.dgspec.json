@@ -4,6 +4,81 @@
     "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.VehicleRepository/CarApp.VehicleRepository.csproj": {}
   },
   "projects": {
+    "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Common/CarApp.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Common/CarApp.Common.csproj",
+        "projectName": "CarApp.Common",
+        "projectPath": "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Common/CarApp.Common.csproj",
+        "packagesPath": "/Users/matkomihalj/.nuget/packages/",
+        "outputPath": "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matkomihalj/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/CarApp.Model.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -101,6 +176,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Common/CarApp.Common.csproj": {
+                "projectPath": "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Common/CarApp.Common.csproj"
+              },
               "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/CarApp.Model.csproj": {
                 "projectPath": "/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Model/CarApp.Model.csproj"
               }

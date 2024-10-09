@@ -45,4 +45,12 @@
   .add-vehicle:hover {
     background-color: #218838;
   }
+
+  .filter-vehicle {
+    background-color: #828489;
+  }
+  
+  .filter-vehicle:hover {
+    background-color: #0056b3;
+  }
   

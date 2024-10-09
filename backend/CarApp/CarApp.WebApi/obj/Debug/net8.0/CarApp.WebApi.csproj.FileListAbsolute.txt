@@ -48,3 +48,5 @@
 /Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.WebApi/bin/Debug/net8.0/CarApp.Vehicle.Service.Common.pdb
 /Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.WebApi/bin/Debug/net8.0/CarApp.VehicleRepository.pdb
 /Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.WebApi/bin/Debug/net8.0/CarApp.VehicleRepository.Common.pdb
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.WebApi/bin/Debug/net8.0/CarApp.Common.dll
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.WebApi/bin/Debug/net8.0/CarApp.Common.pdb

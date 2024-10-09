@@ -1,0 +1,84 @@
+
+.filterForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formRow {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  
+  .formGroup {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  
+  .formGroup:last-child {
+    margin-right: 0;
+  }
+  
+  .formGroup label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .formInput,
+  .formSelect {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .formInput:focus,
+  .formSelect:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .filterButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filterButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .vehicleList {
+    margin-top: 20px;
+  }
+  
+  .vehicleList ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .vehicleList li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  

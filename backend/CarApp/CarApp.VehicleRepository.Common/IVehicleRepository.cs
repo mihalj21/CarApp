@@ -1,5 +1,5 @@
-﻿using CarApp.Model;
-
+﻿using CarApp.Common;
+using CarApp.Model;
 namespace CarApp.VehicleRepository.Common;
 
 public interface IVehicleRepository
@@ -12,5 +12,6 @@ public interface IVehicleRepository
     Task<Vehicle> GetVehicleById(int id);
 
     Task<int> UpdateVehicle(Vehicle vehicle, int id);
+    Task<List<Vehicle>> GetVehicleFilter(Filter filter, Paging paging, Sorting sorting);
 
 }

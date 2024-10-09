@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using CarApp.Common;
 using CarApp.Model;
 using CarApp.VehicleRepository.Common;
 using Npgsql;
@@ -161,5 +162,81 @@ namespace CarApp.VehicleRepository
             command.CommandText = query.ToString();
             return command;
         }
+        
+        
+        public  async Task<List<Vehicle>> GetVehicleFilter(Filter filter, Paging paging, Sorting sorting)
+        {
+            using var conn = new NpgsqlConnection(connectionString);
+            await conn.OpenAsync();
+
+            using var cmd = new NpgsqlCommand();
+            cmd.Connection = conn;
+
+            string query = FilterQuery(filter, sorting, paging, cmd);
+            cmd.CommandText = query;
+
+            await using var reader = await cmd.ExecuteReaderAsync();
+            var vehicleResult = new List<Vehicle>();
+
+            while (await reader.ReadAsync())
+            {
+                Vehicle vehicle = new Vehicle
+                {
+                    Id = (int)reader["Id"],
+                    MakeId = (int)reader["MakeId"],
+                    Name = reader["Name"].ToString(),
+                    Abrv = reader["Abrv"].ToString()
+                };
+                vehicleResult.Add(vehicle);
+            }
+
+            return vehicleResult;
+        }
+
+        
+        private string FilterQuery(Filter filter, Sorting sorting, Paging paging, NpgsqlCommand cmd)
+        {
+            StringBuilder sb = new StringBuilder("SELECT * FROM \"Vehicle\" WHERE 1=1");
+            
+            if (filter.MakeId.HasValue)
+            {
+                sb.Append(" AND \"MakeId\" = @makeId");
+                cmd.Parameters.AddWithValue("@makeId", filter.MakeId.Value);
+            }
+
+            if (!string.IsNullOrEmpty(filter.Name))
+            {
+                sb.Append(" AND \"Name\" ILIKE @name");
+                cmd.Parameters.AddWithValue("@name", $"%{filter.Name}%");
+            }
+
+            if (!string.IsNullOrEmpty(filter.Abrv))
+            {
+                sb.Append(" AND \"Abrv\" ILIKE @abrv");
+                cmd.Parameters.AddWithValue("@abrv", $"%{filter.Abrv}%");
+            }
+
+            if (filter.DateStart.HasValue)
+            {
+                sb.Append(" AND \"DateCreated\" >= @dateStart");
+                cmd.Parameters.AddWithValue("@dateStart", filter.DateStart.Value);
+            }
+
+            if (filter.DateEnd.HasValue)
+            {
+                sb.Append(" AND \"DateCreated\" <= @dateEnd");
+                cmd.Parameters.AddWithValue("@dateEnd", filter.DateEnd.Value);
+            }
+
+            sb.Append($" ORDER BY \"{sorting.OrderBy}\" {sorting.SortOrder}");
+
+            int? offset = (paging.PageNumber - 1) * paging.PageSize;
+            sb.Append($" LIMIT @pageSize OFFSET @offset");
+            cmd.Parameters.AddWithValue("@pageSize", paging.PageSize);
+            cmd.Parameters.AddWithValue("@offset", offset);
+            
+            return sb.ToString();
+        }
+
     }
 }

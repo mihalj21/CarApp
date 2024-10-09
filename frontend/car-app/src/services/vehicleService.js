@@ -27,10 +27,27 @@ const API_URL = 'https://localhost:7256/Vehicle';
     return response;
 };
 
+export const getFilteredVehicles = async (filters) => {
+  const { makeId, name, abrv, pageSize, pageNumber } = filters;
+
+  const response = await axios.get(`${API_URL}/GetAllFilterVehicles`, {
+    params: {
+      makeId: makeId || null,
+      name: name || null,
+      abrv: abrv || null,
+      pageSize: pageSize,
+      pageNumber: pageNumber
+    }
+  });
+
+  return response;
+};
+
 
 export const VehicleService = {
     getVehicles,
     addVehicle,
     deleteVehicle,
-    updateVehicle
+    updateVehicle,
+    getFilteredVehicles
 }

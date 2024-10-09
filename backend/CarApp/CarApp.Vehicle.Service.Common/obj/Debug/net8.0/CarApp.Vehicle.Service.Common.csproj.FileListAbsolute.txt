@@ -14,3 +14,5 @@
 /Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Vehicle.Service.Common/obj/Debug/net8.0/refint/CarApp.Vehicle.Service.Common.dll
 /Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Vehicle.Service.Common/obj/Debug/net8.0/CarApp.Vehicle.Service.Common.pdb
 /Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Vehicle.Service.Common/obj/Debug/net8.0/ref/CarApp.Vehicle.Service.Common.dll
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Vehicle.Service.Common/bin/Debug/net8.0/CarApp.Common.dll
+/Users/matkomihalj/Desktop/CarApp/backend/CarApp/CarApp.Vehicle.Service.Common/bin/Debug/net8.0/CarApp.Common.pdb

@@ -1,4 +1,5 @@
-﻿using CarApp.Vehicle.Service.Common;
+﻿using CarApp.Common;
+using CarApp.Vehicle.Service.Common;
 using CarApp.VehicleRepository.Common;
 
 namespace CarApp.Vehicle.Service;
@@ -40,5 +41,10 @@ public class VehicleService: IVehicleService
     public async Task<int> UpdateVehicle(Model.Vehicle vehicle, int id)
     {
         return await _repository.UpdateVehicle(vehicle, id);
+    }
+
+    public async Task<List<Model.Vehicle>> GetVehicleFilter(Filter filter, Paging paging, Sorting sorting)
+    {
+        return await _repository.GetVehicleFilter(filter, paging, sorting);
     }
 }

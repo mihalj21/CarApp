@@ -1,4 +1,5 @@
 using AutoMapper;
+using CarApp.Common;
 using CarApp.Vehicle.Service.Common;
 using CarApp.WebApi.RestModels;
 using Microsoft.AspNetCore.Mvc;
@@ -113,5 +114,32 @@ public class VehicleController: ControllerBase
            
             return StatusCode(500, $"Internal server error: {ex.Message}");
         }
+    }
+    
+    [HttpGet("GetAllFilterVehicles")]
+    public async Task<IActionResult> GetVehiclesAsync(
+        int? makeId = null, string? name = null, string? abrv = null, 
+        DateTime? dateStart = null, DateTime? dateEnd = null, 
+        int? pageSize = 20, int? pageNumber = 1, 
+        string orderBy = "Name", string sortOrder = "ASC"
+    )
+    {
+        
+        Filter filter = new Filter(makeId, name, abrv, dateStart, dateEnd);
+        Paging paging = new Paging((int)pageSize, (int)pageNumber);
+        Sorting sorting = new Sorting(orderBy, sortOrder);
+
+        // Call service to get the filtered vehicle list
+        List<Model.Vehicle> vehicleResult = await _vehicleService.GetVehicleFilter(filter, paging, sorting);
+
+        List<VehicleRest> vehicleRest = new List<VehicleRest>();
+        _mapper.Map(vehicleResult, vehicleRest);
+
+        if (vehicleRest == null || vehicleRest.Count == 0)
+        {
+            return NotFound("Vehicles not found");
+        }
+
+        return Ok(vehicleRest);
     }
 }

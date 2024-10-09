@@ -1,24 +1,28 @@
-import { makeObservable, observable, action, runInAction } from "mobx";
+import { makeObservable, observable, action, runInAction, } from "mobx";
 import { VehicleService} from "../services/vehicleService";
-
 
 
 class VehicleStore{
 
   vehicles = [];
+  filteredVehicles = [];
   isLoading = false;
   error = "";
+  filterError = "";
 
   constructor(){
 
    makeObservable(this, {
     vehicles: observable,
+    filteredVehicles: observable,
     isLoading: observable,
     error: observable,
+    filterError:observable,
     fetchVehicles: action,
     addVehicle: action,
     deleteVehicle: action,
-    updateVehicle:action
+    updateVehicle:action,
+    fetchFilteredVehicles: action
    });
   }
 
@@ -79,6 +83,25 @@ async updateVehicle(id, updatedVehicle) {
   } catch (error) {
     runInAction(() => {
       this.error = "Failed to update vehicle.";
+    });
+  }
+}
+
+async fetchFilteredVehicles(filters){
+  this.isLoading = true;
+  try{
+    const response = await VehicleService.getFilteredVehicles(filters);
+    console.log("matko",response);
+
+    runInAction (() => {
+      this.filteredVehicles = response.data;
+      this.isLoading = false;
+
+    });
+  } catch{
+    runInAction(() => {
+      this.filterError = "Faile to fetch filtered vehicles";
+      this.isLoading = false;
     });
   }
 }
