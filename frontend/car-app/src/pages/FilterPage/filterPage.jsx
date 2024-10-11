@@ -32,7 +32,6 @@ const FilterPage = observer(() => {
 
   return (
     <div className={styles.filterPageContainer}>
-      <h2>Filter, Sort, and Paginate Vehicles</h2>
       <form className={styles.filterForm} onSubmit={handleFilterSubmit}>
   <div className={styles.formRow}>
     <div className={styles.formGroup}>
@@ -139,19 +138,30 @@ const FilterPage = observer(() => {
 </form>
 
 
-      <div className={styles.vehicleList}>
-        {vehicleStore.isLoading ? (
-          <div>Loading...</div>
-        ) : (
-          <ul>
-            {vehicleStore.filteredVehicles.map((vehicle) => (
-              <li key={vehicle.id}>
-                {vehicle.name} ({vehicle.abrv}) - Make ID: {vehicle.makeId}
-              </li>
-            ))}
-          </ul>
-        )}
-      </div> 
+<div className={styles.vehicleList}>
+  {vehicleStore.isLoading ? (
+    <div>Loading...</div>
+  ) : (
+    <table className={styles.vehicleTable}>
+      <thead>
+        <tr>
+          <th>Vehicle Name</th>
+          <th>Abbreviation</th>
+          <th>Make ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        {vehicleStore.filteredVehicles.map((vehicle) => (
+          <tr key={vehicle.id}>
+            <td>{vehicle.name}</td>
+            <td>{vehicle.abrv}</td>
+            <td>{vehicle.makeId}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )}
+</div>
     </div>
   );
 });
